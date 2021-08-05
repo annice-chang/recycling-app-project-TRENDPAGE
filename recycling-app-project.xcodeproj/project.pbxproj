@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9E15E9226BC2A5400CE93EB /* TrendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E15E9126BC2A5400CE93EB /* TrendViewController.swift */; };
+		B9E15E9426BC2A7200CE93EB /* BatteriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E15E9326BC2A7200CE93EB /* BatteriesViewController.swift */; };
 		BDD011BF26B9B0F20045BBAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011BE26B9B0F20045BBAF /* AppDelegate.swift */; };
 		BDD011C126B9B0F20045BBAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011C026B9B0F20045BBAF /* SceneDelegate.swift */; };
 		BDD011C326B9B0F20045BBAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011C226B9B0F20045BBAF /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B9E15E9126BC2A5400CE93EB /* TrendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendViewController.swift; sourceTree = "<group>"; };
+		B9E15E9326BC2A7200CE93EB /* BatteriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteriesViewController.swift; sourceTree = "<group>"; };
 		BDD011BB26B9B0F20045BBAF /* recycling-app-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "recycling-app-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD011BE26B9B0F20045BBAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDD011C026B9B0F20045BBAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				BDD011CC26B9B0F30045BBAF /* LaunchScreen.storyboard */,
 				BDD011CF26B9B0F30045BBAF /* Info.plist */,
 				BDD011C726B9B0F20045BBAF /* recycling_app_project.xcdatamodeld */,
+				B9E15E9126BC2A5400CE93EB /* TrendViewController.swift */,
+				B9E15E9326BC2A7200CE93EB /* BatteriesViewController.swift */,
 			);
 			path = "recycling-app-project";
 			sourceTree = "<group>";
@@ -140,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9E15E9426BC2A7200CE93EB /* BatteriesViewController.swift in Sources */,
 				BDD011C926B9B0F20045BBAF /* recycling_app_project.xcdatamodeld in Sources */,
 				BDD011C326B9B0F20045BBAF /* ViewController.swift in Sources */,
+				B9E15E9226BC2A5400CE93EB /* TrendViewController.swift in Sources */,
 				BDD011BF26B9B0F20045BBAF /* AppDelegate.swift in Sources */,
 				BDD011C126B9B0F20045BBAF /* SceneDelegate.swift in Sources */,
 			);
